@@ -1,26 +1,21 @@
-# This is a basic workflow that is triggered by push
-name: Deploy your site to Github Pages
-# run when a commit is pushed to "main" branch
+name: Deploy to Github Pages
+
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
     - main
 
-#TODO:
-# Controls when the action push will run. Workflow runs
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+  deploy:
     runs-on: ubuntu-18.04
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
-
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v2
+      with:
+        submodules: true  # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+    
     # install Hugo
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
@@ -28,8 +23,12 @@ jobs:
         hugo-version: '0.77.0'
         extended: true
 
-# Push the generated content into the `main` (former `master`) branch.
-    - name: Deploy github pages
+    # build website
+    - name: Build
+      run: hugo --minify
+
+    # push the generated content into the `main` (former `master`) branch.
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
