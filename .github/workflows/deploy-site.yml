@@ -20,3 +20,12 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
+
+
+# Push the generated content into the `main` (former `master`) branch.
+    - name: Deploy github pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: main # if your main branch is `master` use that here.
+        publish_dir: ./public
