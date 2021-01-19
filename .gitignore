@@ -1,4 +1,8 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Hugo source file
+-w/
+assets/
+data/
+resources/
+static/
+themes/
+config.yaml
