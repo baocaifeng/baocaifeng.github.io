@@ -1,0 +1,8 @@
+---
+title: Top Category Sample
+menu:
+  sidebar:
+    name: 顶级类别样本
+    identifier: category
+    weight: 20
+---

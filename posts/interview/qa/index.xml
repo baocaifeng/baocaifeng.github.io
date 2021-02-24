@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QA on Caifeng</title><link>https://baocaifeng.github.io/posts/interview/qa/</link><description>Recent content in QA on Caifeng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 05 Feb 2021 13:28:21 +0100</lastBuildDate><atom:link href="https://baocaifeng.github.io/posts/interview/qa/index.xml" rel="self" type="application/rss+xml"/><item><title>Big Data</title><link>https://baocaifeng.github.io/posts/interview/qa/big-data/</link><pubDate>Fri, 05 Feb 2021 13:28:21 +0100</pubDate><guid>https://baocaifeng.github.io/posts/interview/qa/big-data/</guid><description>H1 H2 H3 H4 H5 H6 How do you prepare data? What is your approach to it?
+Can you explain how Big Data is connected to Hadoop?
+Can you define the terms HDFS and YARN for us? Also, tell us their respective components
+What are the Edge Nodes in Hadoop?
+What exactly is ‘indexing’ in HDFS?
+What do you understand from commodity hardware?</description></item></channel></rss>

@@ -1,0 +1,39 @@
+---
+title: "内容丰富"
+date: 2020-06-08T08:06:25+06:00
+description: Sample post with multiple images, embedded video ect.
+menu:
+  sidebar:
+    name: 内容丰富
+    identifier: rich-content
+    parent: sub-category
+    weight: 10
+---
+
+制作此样本帖子是为了研究以下问题：
+
+- 在小节的小节中查看边栏内部的情况。
+- 英雄图片将以帖子的方式放在 `images` 文件夹中。
+- 渲染各种媒体，例如图片，推文，youtube视频，bhimeo视频等
+
+### 照片样本
+
+{{< img src="/posts/category/sub-category/rich-content/images/forest.jpg" align="center" >}}
+
+{{< vs >}}
+
+### 推文样本
+
+{{/*< twitter 1085870671291310081 >*/}}
+
+{{< vs >}}
+
+### YouTube视频样本
+
+{{< youtube ZJthWmvUzzc >}}
+
+{{< vs >}}
+
+### vimeo的视频样本
+
+{{< vimeo 48912912 >}}
