@@ -72,13 +72,25 @@ var isMobile = false, isTablet = false, isLaptop = false;
     }
     addSmoothScroll();
 
+    function addNotice(){
+      $("#test").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+      });
+    }
+
+    addNotice();
+
     // re-render custom functions on window resize
     window.onresize = function () {
       detectDevice();
       addSmoothScroll();
     };
   });
+
 })(jQuery);
+
 
 
 // Toggle sidebar on click. Here, class "hide" open the sidebar

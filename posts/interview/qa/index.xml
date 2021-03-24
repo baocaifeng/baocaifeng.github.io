@@ -3,4 +3,4 @@ Can you explain how Big Data is connected to Hadoop?
 Can you define the terms HDFS and YARN for us? Also, tell us their respective components
 What are the Edge Nodes in Hadoop?
 What exactly is ‘indexing’ in HDFS?
-What do you understand from commodity hardware?</description></item></channel></rss>
+What do you understand from commodity hardware?</description></item><item><title>Business</title><link>https://baocaifeng.github.io/posts/interview/qa/business/</link><pubDate>Fri, 05 Feb 2021 13:28:21 +0100</pubDate><guid>https://baocaifeng.github.io/posts/interview/qa/business/</guid><description>Background Q1. 业务背景：某浪微博平台有很多用户时常的会发布微博，当某个用户发布一条微博的时候，TA的所有关注着都可以接收到这条信息。那么怎么样设计一个合理的解决方案来让用户快速将他所发布的微博信息推送给所有的关注者呢？</description></item></channel></rss>

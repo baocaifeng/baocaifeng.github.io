@@ -215,15 +215,7 @@ img.right {
   background-color: #e5e9f2;
 }
 
-.footer #theme {
-  color: #c0ccda;
-}
-
-.footer #theme img {
-  width: 32px;
-}
-
-.footer #hugo:hover {
+.footer #mainlogo:hover {
   margin-right: 5px;
   transition: all 0.3s ease-out;
 }
