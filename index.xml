@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Caifeng</title><link>https://baocaifeng.github.io/</link><description>Recent content on Caifeng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Feb 2021 21:32:33 +0100</lastBuildDate><atom:link href="https://baocaifeng.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Code</title><link>https://baocaifeng.github.io/posts/test/code/</link><pubDate>Thu, 25 Feb 2021 21:30:39 +0100</pubDate><guid>https://baocaifeng.github.io/posts/test/code/</guid><description>Q1. 有三只球队，每只球队编号分别为球队1，球队2，球队3，这三只球队一共需要进行 n 场比赛。现在已经踢完了k场比赛，每场比赛不能打平，踢赢一场比赛得一分，输了不得分不减分。已知球队1和球队2的比分相差d1分，球队2和球队3的比分相差d2分，每场比赛可以任意选择两只队伍进行。求如果打完最后的 (n-k) 场比赛，有没有可能三只球队的分数打平。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Caifeng</title><link>https://baocaifeng.github.io/</link><description>Recent content on Caifeng</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Mar 2021 08:06:25 +0600</lastBuildDate><atom:link href="https://baocaifeng.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Environment</title><link>https://baocaifeng.github.io/posts/basic/docker/environment/</link><pubDate>Mon, 08 Mar 2021 08:06:25 +0600</pubDate><guid>https://baocaifeng.github.io/posts/basic/docker/environment/</guid><description>In this post, we are going to see how to deploy a NodeJS blog application to Docker and how to manage docker containers and publish docker images to Docker Hub.
+NodeJS is a JavaScript runtime environment, widely used and popular for its asynchronous request handling. Docker is a container management system, used to create and manage containers efficiently.
+After reading this post, you will learn:
+xxxxx xxxxxxxxxx xxxxxxx Docker 1.</description></item><item><title>Code</title><link>https://baocaifeng.github.io/posts/test/code/</link><pubDate>Thu, 25 Feb 2021 21:30:39 +0100</pubDate><guid>https://baocaifeng.github.io/posts/test/code/</guid><description>Q1. 有三只球队，每只球队编号分别为球队1，球队2，球队3，这三只球队一共需要进行 n 场比赛。现在已经踢完了k场比赛，每场比赛不能打平，踢赢一场比赛得一分，输了不得分不减分。已知球队1和球队2的比分相差d1分，球队2和球队3的比分相差d2分，每场比赛可以任意选择两只队伍进行。求如果打完最后的 (n-k) 场比赛，有没有可能三只球队的分数打平。
 输入描述: 第一行包含一个数字 t (1 &amp;lt;= t &amp;lt;= 10) 接下来的t行每行包括四个数字 n, k, d1, d2(1 &amp;lt;= n &amp;lt;= 10^12; 0 &amp;lt;= k &amp;lt;= n, 0 &amp;lt;= d1, d2 &amp;lt;= k) 输出描述: 每行的比分数据，最终三只球队若能够打平，则输出“yes”，否则输出“no” 输入例子1: 2
 3 3 0 0
 3 3 3 3
@@ -22,4 +25,9 @@ This is sample alert with type=&amp;quot;warning&amp;quot;.
 This is sample alert with type=&amp;quot;info&amp;quot;.
 This is sample alert with type=&amp;quot;dark&amp;quot;.
 This is sample alert with type=&amp;quot;primary&amp;quot;.
-This is sample alert with type=&amp;quot;secondary&amp;quot;.</description></item></channel></rss>
+This is sample alert with type=&amp;quot;secondary&amp;quot;.</description></item><item><title>Deep Learning</title><link>https://baocaifeng.github.io/posts/ai/dl/deep-learning/</link><pubDate>Mon, 04 Mar 2019 08:06:25 +0600</pubDate><guid>https://baocaifeng.github.io/posts/ai/dl/deep-learning/</guid><description>Deep Learning 1. What is machine learning? machine learning is a kind of things of scienist clusters, studies,computer science, math artificial interligence
+First Introduction: File of study that gives computers the ability to learn without being explicitly programmed.
+google news (cluster) recommanded systems(advisce the service) robots
+classes
+1.1 Unsupervised learning Organize computing clusters Social networking analysis links between people
+Market segmentation different profile of users</description></item></channel></rss>

@@ -1,0 +1,24 @@
+#chatbot {
+    position: fixed;
+    height: 100px; 
+    width: 100px;
+    right: 50px;  
+    bottom: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0);
+    z-index: 10000;
+}
+
+#chatbox {
+    position: fixed;
+    height: 100px; 
+    width: 100px;
+    right: 150px;  
+    bottom: 150px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background: blue;
+    z-index: 10000;
+
+}
