@@ -1,9 +1,0 @@
----
-title: Sub-Category
-menu:
-  sidebar:
-    name: Sous-catégorie
-    identifier: sub-category
-    parent: category
-    weight: 10
----

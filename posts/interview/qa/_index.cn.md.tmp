@@ -1,9 +1,0 @@
----
-title: Sub-Category
-menu:
-  sidebar:
-    name: 子类别
-    identifier: sub-category
-    parent: category
-    weight: 10
----
